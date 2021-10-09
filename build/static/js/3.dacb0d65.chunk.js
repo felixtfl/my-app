@@ -1,0 +1,2 @@
+(this["webpackJsonpmy-app"]=this["webpackJsonpmy-app"]||[]).push([[3],{18:function(t,i,e){},19:function(t,i,e){"use strict";e.r(i);e(18);var s=e(0);i.default=function(t){var i=t.data;return i?Object(s.jsx)("div",{id:"photo-list",children:JSON.parse(i).map((function(t,i){return Object(s.jsxs)("div",{className:"imageStyle",children:[Object(s.jsx)("p",{className:"picTxt",children:t.title}),Object(s.jsx)("img",{src:t.thumbnailUrl,alt:t.title},t.id)]},t.id)}))}):Object(s.jsx)("div",{children:"test"})}}}]);
+//# sourceMappingURL=3.dacb0d65.chunk.js.map
