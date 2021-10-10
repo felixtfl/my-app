@@ -11,7 +11,7 @@ function App() {
   }
   const [data, setData] = useLocalStorage("data", "");
   if (!data) {
-    window.fetch("http://jsonplaceholder.typicode.com/photos").then(
+    window.fetch("https://jsonplaceholder.typicode.com/photos").then(
       function (response) {
         if (response.status !== 200) {
           console.log('Looks like there was a problem. Status Code: ' +
